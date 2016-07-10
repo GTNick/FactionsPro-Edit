@@ -56,6 +56,7 @@ class FactionMain extends PluginBase implements Listener {
 				"OnlyLeadersAndOfficersCanInvite" => true,
 				"OfficersCanClaim" => false,
 				"PlotSize" => 0,
+				"OnlyLeadersCanSete" => true,
 		));
 		$this->db = new \SQLite3($this->getDataFolder() . "FactionsPro.db");
 		$this->db->exec("CREATE TABLE IF NOT EXISTS master (player TEXT PRIMARY KEY COLLATE NOCASE, faction TEXT, rank TEXT);");
