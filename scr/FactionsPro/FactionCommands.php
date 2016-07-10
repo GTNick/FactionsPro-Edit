@@ -514,5 +514,9 @@ class FactionCommands {
 		} else {
 			$this->plugin->getServer()->getLogger()->info($this->plugin->formatMessage("Please run command in game"));
 		}
-	}
+	                        	//////////////////////////// Emblem /////////////////////////////
+	                               if(strtolower($args[0] == 'sete')) {
+	                               	       $sender->sendMessage(TextFormat::BLUE . "Set ur factions emble")
+	                               	
+	}           
 }
