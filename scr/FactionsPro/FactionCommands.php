@@ -516,7 +516,7 @@ class FactionCommands {
 		}
 	                        	//////////////////////////// Emblem /////////////////////////////
 	                               if(strtolower($args[0] == 'sete')) {
-	                               	       $sender->sendMessage(TextFormat::BLUE . "Set ur factions emble")
+	                               	       $sender->sendMessage(TextFormat::BLUE . "Set ur factions emble");
 	                               	
 	}           
 }
